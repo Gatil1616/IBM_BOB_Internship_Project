@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────
+# Student Performance Analytics Dashboard
+# Root-level requirements file
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Tested on Python 3.14.0 (Windows 10 x64)
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+flask>=3.1.0
+
+# CORS support for Flask
+flask-cors>=6.0.0
+
+# Data manipulation and analysis
+pandas>=3.0.0
+
+# Numerical computing (used for correlation and histogram bins)
+numpy>=2.0.0
